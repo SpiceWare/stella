@@ -249,6 +249,8 @@ uInt8 CartridgeBUS::peek(uInt16 address)
       myJMPoperandAddress = address + 1;
       return peekvalue;
     }
+    
+    myJMPoperandAddress = 0;
 
     myJMPoperandAddress = 0;
 
